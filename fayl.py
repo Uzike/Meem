@@ -1,5 +1,5 @@
-def get_duck_image_url():    
-    url = 'https://random-d.uk/api/random'
+def get_redd_mem():    
+    url = 'https://www.reddit.com/r/memes'
     res = requests.get(url)
     data = res.json()
     return data['url']
