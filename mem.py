@@ -25,8 +25,8 @@ async def mem(ctx):
 asynd def random_mem(ctx):
     mems = os.listdir('images')
     meem = choice(mems)
-    with open(f'images/{meem}", rb) as f:
-         picture = discord.File(f)
+    with open(f'images/{meem}', rb) as f:
+                picture = discord.File(f)
     await ctx.send(file=picture)           
 
 @bot.command('redd')
